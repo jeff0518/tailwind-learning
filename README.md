@@ -1,50 +1,17 @@
-# React + TypeScript + Vite
+# Tailwind CSS 練習專案
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+這是一個用來學習和實作 Tailwind CSS 的專案。透過這個專案，我希望熟悉 Tailwind CSS 的用法，並且能快速建立一些簡單又實用的網頁樣式。
 
-Currently, two official plugins are available:
+## 專案簡介
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+此專案的目的如下：
 
-## Expanding the ESLint configuration
+* 理解 Tailwind CSS 的基礎概念。
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* 練習建立響應式且無障礙的版面設計。
 
-- Configure the top-level `parserOptions` property like this:
+## 資源
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+[Tailwind CSS 官方文件](https://tailwindcss.com/)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+[tailwindcss - 從零開始學](https://ithelp.ithome.com.tw/users/20162607/ironman/6658)
