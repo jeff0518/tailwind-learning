@@ -9,7 +9,7 @@ const Header = () => {
             Logo
           </a>
         </div>
-        <div className="flex flex-col sm:flex-row">
+        <div className="flex flex-col sm:flex-row gap-2">
           <Button>Click Me</Button>
           <Button>Click Me</Button>
           <Button>Click Me</Button>
