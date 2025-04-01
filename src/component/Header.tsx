@@ -10,9 +10,9 @@ const Header = () => {
           </a>
         </div>
         <div className="flex flex-col sm:flex-row gap-2">
-          <Button>Click Me</Button>
-          <Button>Click Me</Button>
-          <Button>Click Me</Button>
+          <Button variant="default">Click Me</Button>
+          <Button variant="default">Click Me</Button>
+          <Button variant="default">Click Me</Button>
         </div>
       </div>
     </header>
