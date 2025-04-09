@@ -1,4 +1,5 @@
 import Button from "./Button";
+import Input from "./Input";
 
 const Header = () => {
   return (
@@ -9,7 +10,11 @@ const Header = () => {
             Logo
           </a>
         </div>
+
         <div className="flex flex-col sm:flex-row gap-2">
+          <div className="flex items-center">
+            <Input />
+          </div>
           <Button variant="default">Click Me</Button>
           <Button variant="default">Click Me</Button>
           <Button variant="default">Click Me</Button>
